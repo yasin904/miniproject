@@ -34,7 +34,7 @@ int main()
 
 
 
-double test_kinetic(void) { 
+double test_kinetic(void) {  
   
   TEST_ASSERT_EQUAL(300.00,kinetic(20.00, 30.00));
   
