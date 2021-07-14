@@ -23,4 +23,4 @@ jobs:
       - name: make test
         run: make test -C 3_Implementation/
       - name: Valgrind
-        run: make valgirnd -C 3_Implementation/
+        run: make valgrind -C 3_Implementation/
