@@ -17,7 +17,7 @@
   printf("enter mass and height");
   scanf("%f%f",&m,&h);
   g=9.8*m*h;
-  printf("gravitational energy is%f",g);
+  printf("gravitational energy is%f",&g);
 
   
  }

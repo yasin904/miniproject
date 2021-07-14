@@ -9,6 +9,7 @@
  * 
  */
 #include "func.h"
+#include<stdio.h>
  
  void kinetic()
  {
@@ -16,7 +17,7 @@
   printf("enter mass and velocity");
   scanf("%f%f",&m,&v);
   k=0.5*m*v;
-  printf("kinetic energy is%f",k);
+  printf("kinetic energy is%f",&k);
 
   
  }

@@ -17,7 +17,7 @@
   printf("enter kinetic and gravitational energy");
   scanf("%f%f",&k,&g);
   m=g+k;
-  printf("mechanical energy is%f",m);
+  printf("mechanical energy is%f",&m);
 
   
  }
