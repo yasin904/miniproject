@@ -3,3 +3,4 @@
 [![C CI - Build Status on Linux](https://github.com/yasin904/miniproject/actions/workflows/c-build.yml/badge.svg)](https://github.com/yasin904/miniproject/actions/workflows/c-build.yml)
 [![Dynamic Memory Check - Valgrind](https://github.com/yasin904/miniproject/actions/workflows/valgrind.yml/badge.svg)](https://github.com/yasin904/miniproject/actions/workflows/valgrind.yml)
 [![Unity Unit test](https://github.com/yasin904/miniproject/actions/workflows/unity.yml/badge.svg)](https://github.com/yasin904/miniproject/actions/workflows/unity.yml)
+[![CI-Coverage](https://github.com/yasin904/miniproject/actions/workflows/gvoc.yml/badge.svg)](https://github.com/yasin904/miniproject/actions/workflows/gvoc.yml)
