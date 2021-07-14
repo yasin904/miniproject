@@ -13,9 +13,9 @@ void tearDown()
 
 /*prototyping all the test functions*/
 
-void test_kinetic();
-void test_gravitational();
-void test_mechanical();
+double test_kinetic();
+double test_gravitational();
+double test_mechanical();
 
 /* Start of the application test */
 int main()
@@ -34,19 +34,19 @@ int main()
 
 
 
-void test_kinetic(void) {
+double test_kinetic(void) {
   
-  TEST_ASSERT_EQUAL(300.00, 20.00, 30.00);
+  TEST_ASSERT_EQUAL(300.00,20.00, 30.00);
   
 }
 
-void test_gravitational(void){
+double test_gravitational(void){
     
     
     TEST_ASSERT_EQUAL(1960.00, 10.00,20.00);
 }
 
-void test_mechanical(void){
+double test_mechanical(void){
     
     
     TEST_ASSERT_EQUAL(300.00, 100.00,200.00);

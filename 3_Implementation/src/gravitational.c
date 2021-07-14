@@ -11,13 +11,13 @@
 #include "func.h"
 #include<stdio.h>
  
- void gravitational()
+ double gravitational(double m,double h)
  {
-  float m,h,g;
-  printf("enter mass and height");
-  scanf("%f%f",&m,&h);
+  double g;
+  
+  
   g=9.8*m*h;
-  printf("gravitational energy is%f",&g);
+  return g;
 
   
  }

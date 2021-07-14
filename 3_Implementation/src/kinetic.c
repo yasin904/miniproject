@@ -11,13 +11,14 @@
 #include "func.h"
 #include<stdio.h>
  
- void kinetic()
+ double kinetic(double m,double v)
  {
-  float m,v,k;
-  printf("enter mass and velocity");
-  scanf("%f%f",&m,&v);
+  double k;
+
+
   k=0.5*m*v;
-  printf("kinetic energy is%f",&k);
+  
+  return k;
 
   
  }

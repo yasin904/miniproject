@@ -11,13 +11,13 @@
 #include "func.h"
 #include<stdio.h>
  
- void mechanical()
+ double mechanical(double k,double g)
  {
-  float k,g,m;
-  printf("enter kinetic and gravitational energy");
-  scanf("%f%f",&k,&g);
+  double m;
+  
+
   m=g+k;
-  printf("mechanical energy is%f",&m);
+  return m;
 
   
  }
