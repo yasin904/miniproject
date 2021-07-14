@@ -5,3 +5,4 @@
 [![Unity Unit test](https://github.com/yasin904/miniproject/actions/workflows/unity.yml/badge.svg)](https://github.com/yasin904/miniproject/actions/workflows/unity.yml)
 [![CI-Coverage](https://github.com/yasin904/miniproject/actions/workflows/gvoc.yml/badge.svg)](https://github.com/yasin904/miniproject/actions/workflows/gvoc.yml)
 [![Cppcheck-Static Code Quality Analysis](https://github.com/yasin904/miniproject/actions/workflows/Cppcheck.yml/badge.svg)](https://github.com/yasin904/miniproject/actions/workflows/Cppcheck.yml)
+[![C CI - Build Status on Windows.](https://github.com/yasin904/miniproject/actions/workflows/c-buildWin.yml/badge.svg)](https://github.com/yasin904/miniproject/actions/workflows/c-buildWin.yml)
