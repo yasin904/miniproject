@@ -8,7 +8,7 @@
  * @brief kinetic function declaration
  * 
  */
-void kinetic();
+double kinetic();
 
 
 
@@ -16,14 +16,14 @@ void kinetic();
  * @brief gravitational function declaration
  * 
  */
-void gravitational();
+ double gravitational();
 
 
 /**
  * @brief mechanical function declaration
  * 
  */
-void mechanical();
+double mechanical();
 
 
 

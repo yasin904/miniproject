@@ -36,19 +36,19 @@ int main()
 
 double test_kinetic(void) {
   
-  TEST_ASSERT_EQUAL(300.00,20.00, 30.00);
+  TEST_ASSERT_EQUAL(300.00,kinetic(20.00, 30.00));
   
 }
 
 double test_gravitational(void){
     
     
-    TEST_ASSERT_EQUAL(1960.00, 10.00,20.00);
+    TEST_ASSERT_EQUAL(1960.00, gravitational(10.00,20.00));
 }
 
 double test_mechanical(void){
     
     
-    TEST_ASSERT_EQUAL(300.00, 100.00,200.00);
+    TEST_ASSERT_EQUAL(300.00, mechanical(100.00,200.00));
     
 }
